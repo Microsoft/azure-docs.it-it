@@ -38,12 +38,6 @@ Come sistema di database distribuito a livello globale, Azure Cosmos DB è il so
 
 L'articolo descrive il costo di Cosmos DB per semplici operazioni di lettura e scrittura, quando usato come archivio di chiavi/valori. Le operazioni di scrittura includono inserimenti, sostituzioni, eliminazioni e upsert di documenti. Oltre a una disponibilità elevata del 99,99%, Cosmos DB garantisce rispettivamente una latenza pari a <10 ms per le letture e a <15 ms per le scritture (indicizzate), al 99° percentile. 
 
-## <a name="why-we-use-request-units-rus"></a>Perché usare le unità richiesta (UR)
-
-Le prestazioni di Cosmos DB si basano sulla quantità di [unità richiesta](request-units.md) (UR) con provisioning per la partizione. Il provisioning è a una granularità in secondi e viene acquistato in UR/sec e UR/min, [da non confondere con la fatturazione oraria](https://azure.microsoft.com/pricing/details/cosmos-db/). Le UR devono essere considerate come una valuta che semplifica il provisioning della velocità effettiva necessaria per l'applicazione. I clienti non devono pensare a differenziare le unità di capacità tra lettura e scrittura. Il modello singolo di valuta delle UR crea efficienza per condividere la capacità di provisioning tra le letture e le scritture. Questo modello di capacità con provisioning consente al servizio fornire una velocità effettiva prevedibile e coerente, con bassa latenza e disponibilità elevata garantite. Infine, si usano le UR per generare un modello di velocità effettiva, ma ogni UR con provisioning presenta inoltre una quantità di risorse definita (memoria, memoria centrale). UR/sec non si riferisce solo alle operazioni di I/O al secondo (IOPS).
-
-Come sistema di database distribuito a livello globale, Cosmos DB è il solo servizio di Azure che fornisce un contratto di servizio basato su latenza, velocità effettiva e coerenza oltre che sulla disponibilità elevata. La velocità effettiva con cui viene effettuato il provisioning viene applicata a ognuna delle aree associate all'account di database Cosmos DB. Per le letture, Cosmos DB offre più [livelli di coerenza](consistency-levels.md) ben definiti tra cui scegliere. 
-
 La tabella seguente mostra il numero di UR necessarie per eseguire transazioni di lettura e scrittura con dimensioni di documento pari a 1 KB e 100 KB.
 
 |Dimensioni dell'elemento|1 Lettura|1 Scrittura|
