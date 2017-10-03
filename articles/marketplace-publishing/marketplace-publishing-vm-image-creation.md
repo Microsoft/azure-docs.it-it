@@ -119,6 +119,13 @@ Con pochi semplici passaggi, dal portale di Microsoft Azure è possibile creare 
 È consigliabile sviluppare il VHD nel cloud usando Remote Desktop Protocol (RDP). Per connettersi a RDP, usare il nome utente e la password specificati durante il provisioning.
 
 > [!IMPORTANT]
+> **Non utilizzare dischi managed.** La virutal machine utilizzata per sviluppare il VHD nel cloud non deve avere essere basata su dischi managed in quanto al momento non è supportata la creazione di una immagine a partire da essi.
+
+Creando la virtual machine nelle optional feature cambiare il default per i dischi managed.   
+>
+>
+
+> [!IMPORTANT]
 > Se si sviluppa il VHD in locale (scelta non consigliata), vedere l'articolo relativo alla [creazione di un'immagine di macchina virtuale in locale](marketplace-publishing-vm-image-creation-on-premise.md). Il download del VHD non è necessario se lo sviluppo viene eseguito nel cloud.
 >
 >
