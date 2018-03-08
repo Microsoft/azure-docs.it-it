@@ -28,7 +28,7 @@ Il database SQL di Azure è un database relazionale distribuito come servizio, o
 
 > [!div class="checklist"]
 > * Creare un database nel portale di Azure
-> * Impostare una regola del firewall a livello di server nel portale di Azure
+> * Impostare una regola di firewall a livello di server nel portale di Azure
 > * Connettersi al database con SSMS
 > * Creare tabelle con SQL Server Management Studio
 > * Eseguire il caricamento bulk dei dati con BCP
