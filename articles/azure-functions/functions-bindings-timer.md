@@ -50,7 +50,7 @@ Vedere l'esempio specifico per ciascun linguaggio:
 
 ### <a name="c-example"></a>Esempio in C#
 
-L'esempio seguente mostra una [funzione C#](functions-dotnet-class-library.md) che viene eseguita ogni cinque minuti:
+L'esempio seguente mostra una [funzione C#](functions-dotnet-class-library.md) che viene eseguita ogni volta che i minuti hanno un valore divisibile per cinque (es. se la funzione parte alle 18:57:00, la prossima esecuzione sarà alle 19:00:00):
 
 ```cs
 [FunctionName("TimerTriggerCSharp")]
