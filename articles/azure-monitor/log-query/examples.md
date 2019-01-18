@@ -208,7 +208,7 @@ Perf
 ## <a name="protection-status"></a>Stato protezione
 
 ### <a name="computers-with-non-reporting-protection-status-duration"></a>Computer con durata dello stato di protezione Segnalazioni non inviate
-Questo esempio elenca i computer che hanno avuto uno stato di protezione _Segnalazioni non inviate_ e la durata di questo stato.
+Questo esempio elenca i computer che hanno avuto uno stato di protezione _Not Reporting_ e la durata di questo stato.
 
 ```Kusto
 ProtectionStatus
