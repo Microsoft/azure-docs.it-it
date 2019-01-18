@@ -149,7 +149,7 @@ def main(req: func.HttpRequest,
     logging.info(f'Python HTTP triggered function processed: {obj.read()}')
 ```
 
-Quando viene richiamata questa funzione, la richiesta HTTP viene passata alla funzione come `req`. Una voce verrà recuperata dall'archivio BLOB di Azure in base all'_ID_ nell'URL di route e verrà resa disponibile come `obj` nel corpo della funzione.
+Quando viene richiamata questa funzione, la richiesta HTTP viene passata alla funzione come `req`. Una voce verrà recuperata dall'archivio BLOB di Azure in base all' _id_ nell'URL di route e verrà resa disponibile come `obj` nel corpo della funzione.
 
 ## <a name="outputs"></a>Output
 
