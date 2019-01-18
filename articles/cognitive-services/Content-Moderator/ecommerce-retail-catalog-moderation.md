@@ -97,7 +97,7 @@ Dopo aver eseguito il training del classificatore, ottenere la chiave di stima e
 
 ## <a name="create-reviews-for-review-tool"></a>Creare revisioni per lo strumento di revisione
 
-Nelle sezioni precedenti si sono esaminati i metodi che analizzano le immagini in ingresso per rilevare la presenza di contenuti per adulti e spinti (Content Moderator), celebrità (Visione artificiale) e vari altri oggetti (Visione personalizzata). Successivamente, vedere il metodo **CreateReview**, che carica le immagini con tutti i tag applicati, passati come _metadati_, nello strumento di revisione di Content Moderator in modo da renderli disponibili per la revisione umana. 
+Nelle sezioni precedenti si sono esaminati i metodi che analizzano le immagini in ingresso per rilevare la presenza di contenuti per adulti e spinti (Content Moderator), celebrità (Visione artificiale) e vari altri oggetti (Visione personalizzata). Successivamente, vedere il metodo **CreateReview**, che carica le immagini con tutti i tag applicati, passati come _Metadata_, nello strumento di revisione di Content Moderator in modo da renderli disponibili per la revisione umana. 
 
 [!code-csharp[define CreateReview method](~/samples-eCommerceCatalogModeration/Fusion/Program.cs?range=173-196)]
 
