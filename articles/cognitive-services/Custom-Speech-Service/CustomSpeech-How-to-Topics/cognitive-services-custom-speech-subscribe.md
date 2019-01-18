@@ -25,7 +25,7 @@ Prima di iniziare a usare il Servizio di riconoscimento vocale personalizzato, o
 ## <a name="get-a-subscription-key"></a>Ottenere una chiave di sottoscrizione
 1. È possibile ottenere una chiave di sottoscrizione dal portale di Azure in uno dei due modi seguenti:
 
-    * Passare al [portale di Azure](https://ms.portal.azure.com) e aggiungere una nuova API Servizi cognitivi cercando _Servizi cognitivi_ e quindi selezionando **API Servizi cognitivi**.
+    * Passare al [portale di Azure](https://ms.portal.azure.com) e aggiungere una nuova API Servizi cognitivi cercando _Cognitive Services_ e quindi selezionando **API Servizi cognitivi**.
 
       ![Ricerca di Servizi cognitivi](../../../media/cognitive-services/custom-speech-service/custom-speech-azure-subscription.png)
 
