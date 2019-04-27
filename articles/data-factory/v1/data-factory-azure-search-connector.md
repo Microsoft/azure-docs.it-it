@@ -59,7 +59,7 @@ La tabella seguente include le descrizioni degli elementi JSON specifici del ser
 | Proprietà | DESCRIZIONE | Obbligatoria |
 | -------- | ----------- | -------- |
 | type | La proprietà type deve essere impostata su: **AzureSearch**. | Yes |
-| URL | URL del servizio Ricerca di Azure. | Yes |
+| url | URL del servizio Ricerca di Azure. | Yes |
 | key | Chiave amministratore del servizio Ricerca di Azure. | Yes |
 
 ## <a name="dataset-properties"></a>Proprietà dei set di dati
@@ -100,7 +100,7 @@ La tabella seguente indica se un tipo di dati di Ricerca di Azure è supportato 
 
 | Tipo di dati di Ricerca di Azure | Supportato nel sink di Ricerca di Azure |
 | ---------------------- | ------------------------------ |
-| string | S |
+| String | S |
 | Int32 | S |
 | Int64 | S |
 | Double | S |
