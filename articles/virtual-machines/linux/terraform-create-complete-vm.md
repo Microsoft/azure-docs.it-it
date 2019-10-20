@@ -239,9 +239,9 @@ resource "azurerm_virtual_machine" "myterraformvm" {
 }
 ```
 
-## <a name="complete-terraform-script"></a>Completare lo script Terraform
+## <a name="complete-terraform-script"></a>Script Terraform completo
 
-Per riunire tutte queste sezioni e vedere Terraform in azione, creare un file denominato *terraform_azure.tf* e incollarvi il contenuto seguente:
+Per vedere Terraform in azione, è necessario riunire tutte queste sezioni e creare un file denominato *terraform_azure.tf*, incollando quindi tutto il contenuto seguente:
 
 ```hcl
 # Configure the Microsoft Azure Provider
